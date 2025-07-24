@@ -1,0 +1,28 @@
+# --- Python cache & build artifacts ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# --- Poetry ---
+.poetry/
+*.egg-info/
+
+# --- Logs & runtime files ---
+logs/
+*.log
+
+# --- Output & generated data ---
+output/
+data/generation_metadata.json
+data/machine_messages.json
+
+# --- IDE & editor configs ---
+.vscode/
+.idea/
+
+# --- System files ---
+.DS_Store
+Thumbs.db
