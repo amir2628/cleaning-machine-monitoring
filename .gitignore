@@ -16,8 +16,6 @@ logs/
 
 # --- Output & generated data ---
 output/
-data/generation_metadata.json
-data/machine_messages.json
 
 # --- IDE & editor configs ---
 .vscode/

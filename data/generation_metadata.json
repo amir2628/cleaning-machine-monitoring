@@ -1,0 +1,55 @@
+{
+  "generation_config": {
+    "min_yards": 10,
+    "max_yards": 15,
+    "min_machines": 5,
+    "max_machines": 8,
+    "messages_per_machine": [
+      12,
+      20
+    ],
+    "yard_area_range": [
+      100,
+      1000
+    ],
+    "cleaning_speed_range": [
+      0.5,
+      3.0
+    ],
+    "coordinate_range": [
+      -100,
+      100
+    ],
+    "simulation_duration_minutes": 60,
+    "yard_coverage_percent": 80,
+    "message_in_yard_percent": 80,
+    "base_message_interval": 1.0,
+    "interval_variance": 0.2
+  },
+  "generated_data": {
+    "yards_count": 15,
+    "machines_count": 5,
+    "messages_count": 95,
+    "messages_per_machine": 19
+  },
+  "timing_analysis": {
+    "target_interval_seconds": 1.0,
+    "actual_average_interval_seconds": 6.34,
+    "total_intervals_analyzed": 94,
+    "realistic_timing_achieved": false
+  },
+  "statistics": {
+    "messages_in_yards_percent": 100.0,
+    "yards_used_percent": 80.0,
+    "yards_used_count": 12,
+    "yards_total_count": 15
+  },
+  "requirements_check": {
+    "min_10_yards": true,
+    "min_5_machines": true,
+    "min_5_messages_per_machine": true,
+    "80_percent_yards_cleaned": true,
+    "80_percent_messages_in_yards": true,
+    "realistic_timing": false
+  }
+}
