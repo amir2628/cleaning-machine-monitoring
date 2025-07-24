@@ -130,7 +130,7 @@ cleaning-machine-monitoring/
 
 ```bash
 # Клонирование репозитория
-git clone <repository-url>
+git clone https://github.com/amir2628/cleaning-machine-monitoring
 cd cleaning-machine-monitoring
 
 # Установка зависимостей через Poetry
@@ -368,7 +368,7 @@ cleaning-machine-monitoring/
 
 ```bash
 # Clone repository
-git clone <repository-url>
+git clone https://github.com/amir2628/cleaning-machine-monitoring
 cd cleaning-machine-monitoring
 
 # Install dependencies via Poetry
