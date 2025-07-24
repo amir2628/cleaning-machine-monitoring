@@ -164,7 +164,7 @@ python main.py
 python main.py --debug
 ```
 
-#### ⚡ **Режим реального времени (НОВЫЙ)**
+#### ⚡ **Режим реального времени**
 ```bash
 # Режим реального времени с симуляцией передачи
 python main.py --debug --realtime
@@ -414,7 +414,7 @@ python main.py
 python main.py --debug
 ```
 
-#### ⚡ **Real-time Mode (NEW)**
+#### ⚡ **Real-time Mode**
 ```bash
 # Real-time mode with transmission simulation
 python main.py --debug --realtime
